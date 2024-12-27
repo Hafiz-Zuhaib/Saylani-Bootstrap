@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/* Product section styling */
+
+.Product .card {
+    border: none;
+}
+
+.Product .card:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.Product #primary:hover {
+    background-color: white;
+    color: blue;
+}
+
+.Product #success:hover {
+    background-color: white;
+    color: green;
+}
+
+.Product #info:hover {
+    background-color: white;
+    color: skyblue;
+}
+
+.Product #danger:hover {
+    background-color: white;
+    color: darkred;
+}
+
+/* End of product section */
+
+
+/* About section styling */
+.About .card {
+    border: none;
+}
+
+.About .card:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.About a:hover {
+    background-color: white;
+    color: blue;
+}
+
+/* End of About section styling */
+
+
+.FAQs {
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#Contact {
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* .carousel-caption{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+} */
+
+#carouselSection {
+    min-height: 100vh;
+}
+
+/* a:hover{
+    font-weight: bold;
+    text-decoration:underline;
+    } */
+
+.nav-item {
+    display: inline-block;
+    padding: 0px 1vw;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+    color: #2C5364; 
+    font-weight: bold;
+}
+
+/* .carousel-inner h5 p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
